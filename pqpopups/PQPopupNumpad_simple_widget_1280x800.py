@@ -14,7 +14,7 @@ Rect_1 = QRect(24, 146, 52, 52)
 Rect_0_key = QRect(24, 326, 52, 52)
 Rect_Back = QRect(24 + 8 + 52, 326, 52, 52)
 Rect_OK = QRect(84 + 8 + 52, 326, 52, 52)
-POPUP_NUMKEYPAD_W = 226
+POPUP_NUMKEYPAD_W = 220
 POPUP_NUMKEYPAD_H = 400
 ARRAY_NUBER = ['1','2','3','4','5','6','7','8','9']
 

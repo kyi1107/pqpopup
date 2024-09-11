@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pqpopups',
-    version='1.0.0',
+    version='1.0.4',
     description='A custom PyQt5 popups package',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
@@ -12,6 +12,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'PyQt5>=5.15.0',
+        'pqwidgets>=1.0.7',
     ],
     classifiers=[
         'Programming Language :: Python :: 3',

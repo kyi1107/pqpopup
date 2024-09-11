@@ -18,16 +18,17 @@ class enSoundType():
     EN_SHUTDOWN_SOUND_TYPE = 3
     EN_ERROR_SOUND_TYPE = 3
 
+class enPopupIcon():
+    Icon_Check = 0
+    Icon_Question = 1
+    Icon_Warning = 2
+    Icon_Working = 3
 
 class enPopupButton():
     Btn_None = 0
     Btn_Ok = 1
     Btn_Cancel = 2
-    Btn_Ignore = 4
     Btn_OkCancel = 10
-    Btn_OkCancelIgnore = 11
-    Btn_ThreadEnd = 20
-    Btn_ThreadCancel = 21
     Btn_YesNo = 30
 
 class enNumpadMode():
@@ -53,6 +54,23 @@ class styleSheet():
                  QLabel {     
                      background-color: #F7F8F8;                
                      color : #A7A8A8;
+                 }
+             """
+
+    BACKGROUND_STYLE_03_RADIUS = """
+                 QLabel {
+                     color : black;
+                     background-color: #F7F8F8;
+                     border: 2px solid #A3A3A3;
+                     border-radius: 60px;
+                 }
+             """
+
+    BACKGROUND_STYLE_04_RADIUS = """
+                 QLabel {
+                     color : black;
+                     background-color: #F7F8F8;
+                     border: 2px solid #A3A3A3;
                  }
              """
     #에디트박스 스타일
